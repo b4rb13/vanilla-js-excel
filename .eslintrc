@@ -9,6 +9,9 @@
   "rules": {
     "quotes": "off",
     "object-curly-spacing": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "linebreak-style": "off",
+    "operator-linebreak": "off",
+    "indent": ["error", 2]
   }
 }
