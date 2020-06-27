@@ -4,9 +4,9 @@ import {
   TABLE_RESIZE,
   APPLY_STYLE,
   CHANGE_TITLE,
+  UPDATE_DATE,
 } from "./types";
 
-// Action Creator
 export function tableResize(data) {
   return {
     type: TABLE_RESIZE,
@@ -28,7 +28,6 @@ export function changeStyles(data) {
   };
 }
 
-// value, ids
 export function applyStyle(data) {
   return {
     type: APPLY_STYLE,
@@ -40,5 +39,10 @@ export function changeTitle(data) {
   return {
     type: CHANGE_TITLE,
     data,
+  };
+}
+export function updateDate() {
+  return {
+    type: UPDATE_DATE,
   };
 }
